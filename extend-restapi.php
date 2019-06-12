@@ -25,7 +25,7 @@ function extend_rest_post_response() {
 	 	)
 	);
 }
-function get_cat_name( $object, $field_name, $request ) {
+function get_name( $object, $field_name, $request ) {
 	$cats = $object['categories'];
 	$res = [];
 	$ob = [];
