@@ -19,7 +19,7 @@ function extend_rest_post_response() {
 	register_rest_field( 'post',
 		'cat_name',
 		array(
-			'get_callback'    => 'get_cat_name',
+			'get_callback'    => 'get_name',
 			'update_callback' => null,
 			'schema'          => null,
 	 	)
